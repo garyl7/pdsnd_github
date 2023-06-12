@@ -269,7 +269,7 @@ def main():
             if restart.lower() in ['yes', 'y']:
                 break
             elif restart.lower() in ['no', 'n']:
-                raise SystemExit
+                return
 
 
 

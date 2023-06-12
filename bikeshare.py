@@ -111,7 +111,7 @@ def time_stats(df):
     start_time = time.time()
 
     # check that a month filter hasn't been applied 
-    if len(df['month'].unique()) > 1:
+    if 'month' in df:
         # find the most common month (from January to June)
         popular_month = df['month'].mode()[0]
         # find the count of the most common month

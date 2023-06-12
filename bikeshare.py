@@ -237,6 +237,7 @@ def user_stats(df):
     print('-'*40)
 
 def raw_data(df):
+    """Displays raw individual trip data."""
     start_row = 0
     while True:
         show_raw_data = input('\nWould you like to see individual trip data? Type \'yes\' or \'no\'.\n')
